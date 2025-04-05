@@ -1,0 +1,6 @@
+.gitignore sirve para excluir ciertos archivos (o mejor dicho, tipos de archivos) para que git no los esté rastreando.
+
+Por ejemplo, en la mac siempre aparecen los archivos .DS_Store dentro de las carpetas
+(dato curioso: estos son para la indexación de spotlight)
+
+entonces, usuarios de Mac como yo podemos usar .gitignore para evitar que estos archivos "aparezcan" cada vez que queremos subirlos a un repositorio, ya que no le sirven a todo mundo
